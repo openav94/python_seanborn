@@ -113,7 +113,7 @@ print(tarjetas.head())
 #sns.displot(data=tarjetas, x='Limite', col='Escolaridad', kind='kde', hue='rango_edad')
 
 #Vamos a utilizar el grafico de Dispersion
-sns.scatterplot(x='iu', y='Valor_Factura', data=tarjetas)
+sns.scatterplot(x='iu', y='Valor_Factura', data=tarjetas, hue='Cuenta_Corriente')
 
 
 plt.show()
